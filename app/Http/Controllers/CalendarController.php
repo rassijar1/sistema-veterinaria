@@ -14,11 +14,16 @@ class CalendarController extends Controller
 
         
         foreach($recorrer as $recorridos) {
-           $hora=$recorridos->time_appoinment;
+           $arr = array( "a"=>"yellow", "b"=>"purple", "c"=>"green", "d"=>"red", "e"=>"blue","f"=>"fuchsia");
+           shuffle($arr);
+ 
+
+
 
             $calendar[] = [
-                'title'=>$recorridos->title." Hora: "." ".$hora,
-                'start' => $recorridos->date_appoinment
+                'title'=>$recorridos->title,
+                'start' => $recorridos->date_appoinment." ".$recorridos->time_appoinment,
+                'color' =>$arr[0]
                 
             ];
 
