@@ -70,7 +70,10 @@ deben quitar doc_identidad y num_cel para hacer el registro. Despues de hacer el
 
 Ahora ya se puede ingresar a la ventana del sistema con el usuario y contraseña creados, ya es posible loguearse entonces una vez logueados con usuario y contraseña podemos entrar a los modulos del sistema que son los de clientes, mascotas, citas y calendario. El sistema de clientes tiene su respectivo crud, al igual que las mascotas y las citas. pero la diferencia es que las citas tienen mas validaciones como buscar rangos de fechas espeficicas que tienen citas y que al momento de crear una cita con horario y hora iguales no los va a dejar hacerlo. Finalmente se implemento el plugin full calendar que la finalidad de hacerlo es que las citas ingresadas se plasmen en  dicho calendario.
 
-Nota: las imagenes que estan nombradas con parentesis iran en una carpeta llamada autenticacion img.
+Nota: las imagenes que estan nombradas con parentesis iran en una carpeta llamada autenticacion img, y si se quiere cargar el programa con la base de datos adjunta el usuario es el siguiente:
+
+usuario:rassijar@gmail.com
+pass:1234
 
 El modulo de clientes cuenta con una inferfaz de una datatable que tiene un boton para crear cliente, uno para editar y uno para eliminar.
 
@@ -78,4 +81,4 @@ El modulo de mascotas cuenta con una inferfaz de una datatable que tiene un boto
 
 El modulo de citas cuenta con una inferfaz de una datatable que tiene un boton para crear cliente, uno para editar y uno para eliminar. aparte de eso tiene unas cajas de texto que sirven para buscar fechas y acorde a ese filtro se va mostrando los resultados.
 
--Finalmene, El modulo de calendario cuenta con una inferfaz que permite mostrar las citas ingresadas en el modulo de citas con la hora y titulo de la cita en especifico y pudiendo filtrar por semana, mes y dia.
+-Finalmente, El modulo de calendario cuenta con una inferfaz que permite mostrar las citas ingresadas en el modulo de citas con la hora y titulo de la cita en especifico y pudiendo filtrar por semana, mes y dia.
