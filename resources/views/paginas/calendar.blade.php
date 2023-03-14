@@ -63,15 +63,23 @@ $(document).ready(function(){
             var calendar=@json($calendar);
             console.log("calendar", calendar);
 
-            $('#calendar').fullCalendar({
-
+               $('#calendar').fullCalendar({
+               expandRows: true,
+                height: '100%', 
+                  selectable: true,
+                   navLinks: true, 
+                  nowIndicator: true,
+                  dayMaxEvents: true,
                 header: {
                     left: 'prev, next today',
                     center: 'title',
                     right: 'month, agendaWeek, agendaDay',
                 },
                  locale: 'es',
+
                 events: calendar
+                 
+                 
                 
 
 
